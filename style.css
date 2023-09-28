@@ -24,25 +24,21 @@ body{
     width: 100%;
 }
 
-.menupesquisar{
-    display: flex;
-    border: solid;
-    background-color: rgba(51, 38, 69, 1);
-    border-radius: 20px;
-    border-width: 1px;
-    border-color: rgba(120, 90, 158, 1);
-    width: 220px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
-}
-
 .menudireita{
     display: flex;
     gap: 15px;
     justify-content: center;
     align-items: center;
+}
+
+.menudireita input{
+    display: flex;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgba(120, 90, 158, 1);
+    width: 220px;
+    height: 40px;
 }
 
 .textomenu a{
@@ -154,6 +150,9 @@ body{
     border-width: 1px;
     width: 900px;
     height: 700px;
+    padding-top: 100px;
+    padding-left: 200px;
+    margin: 80px;
 }
 
 .cadastro input{
