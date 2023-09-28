@@ -167,3 +167,23 @@ body{
 .cadastro h1{
     color: rgba(133, 99, 159, 1);
 }
+
+.categoria{
+    padding: 8%;
+    gap: 30px;
+}
+
+.categoria h1{
+    color: rgba(226, 164, 255, 1);
+}
+
+.categorialista li{
+    list-style: none;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.categorialista a{
+    text-decoration: none;
+    color: inherit;
+}
