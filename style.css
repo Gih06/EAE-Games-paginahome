@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(55, 54, 91, 1);
+}
+
+.menu{
+    display: flex;
+    gap: 700px;
+    justify-content: space-around;
+}
+
+.h1menu{
+    font-size: 25px;
+    color: rgba(120, 90, 158, 1);
+}
+
+.menu.img{
+    height: 70px;
+    width: 70px;
+}
+
+.linha{
+    background-color: rgba(133, 99, 159, 1);
+    height: 1px;
+    width: 100%;
+}
+
+.menupesquisar{
+    display: flex;
+    border: solid;
+    background-color: rgba(51, 38, 69, 1);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgba(120, 90, 158, 1);
+    width: 220px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.menudireita{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textomenu a{
+    text-decoration: none;
+    color: rgba(226, 164, 255, 1);
+}
+
+.textomenu{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.vermais{
+    display: flex;
+    background-color: rgba(41, 41, 66, 1);
+    width: 80px;
+    height: 30px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgba(133, 99, 159, 1);
+    border-color: rgba(133, 99, 159, 1);
+    justify-content: center;
+    justify-items: center;
+    justify-self: flex-end;
+    margin-top: 10px;
+}
+
+.imagenshome{
+    background-color: rgba(41, 41, 66, 1);
+    height: 350px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.imagenshome2{
+    background-color: rgba(41, 41, 66, 1);
+    margin-top: 60px;
+    height: 350px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    justify-items: center;
+}
