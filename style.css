@@ -2,43 +2,8 @@ body{
     background-color: rgba(55, 54, 91, 1);
 }
 
-.menu{
-    display: flex;
-    gap: 700px;
-    justify-content: space-around;
-}
-
-.h1menu{
-    font-size: 25px;
-    color: rgba(120, 90, 158, 1);
-}
-
-.menu.img{
-    height: 70px;
-    width: 70px;
-}
-
-.linha{
-    background-color: rgba(133, 99, 159, 1);
-    height: 1px;
-    width: 100%;
-}
-
-.menudireita{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-}
-
-.menudireita input{
-    display: flex;
-    border: solid;
-    border-radius: 20px;
-    border-width: 1px;
-    border-color: rgba(120, 90, 158, 1);
-    width: 220px;
-    height: 40px;
+.container-fluid{
+    background-color: rgba(55, 54, 91, 1);
 }
 
 .textomenu a{
@@ -168,15 +133,6 @@ body{
     color: rgba(133, 99, 159, 1);
 }
 
-.categoria{
-    padding: 8%;
-    gap: 30px;
-}
-
-.categoria h1{
-    color: rgba(226, 164, 255, 1);
-}
-
 .categorialista li{
     list-style: none;
     font-size: 30px;
@@ -186,4 +142,13 @@ body{
 .categorialista a{
     text-decoration: none;
     color: inherit;
+}
+
+.superiordw{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgba(41, 41, 66, 1);
+    color: rgba(133, 99, 159, 1);
+    justify-content: space-between;
+    height: 800px;
 }
