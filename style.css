@@ -47,14 +47,14 @@ body{
 
 .textomenu a{
     text-decoration: none;
-    color: rgba(226, 164, 255, 1);
+    color: rgba(133, 99, 159, 1);
 }
 
 .textomenu{
     display: flex;
     gap: 30px;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .vermais{
@@ -75,20 +75,73 @@ body{
 }
 
 .imagenshome{
-    background-color: rgba(41, 41, 66, 1);
     height: 350px;
     display: flex;
     gap: 80px;
-    justify-content: center;
-    justify-items: center;
+    margin: 20px;
+    margin-left: 10%;
+}
+
+.linhaimg{
+    background-color: rgba(41, 41, 66, 1);
+    height: 2px;
 }
 
 .imagenshome2{
-    background-color: rgba(41, 41, 66, 1);
     margin-top: 60px;
     height: 350px;
     display: flex;
     gap: 80px;
-    justify-content: center;
-    justify-items: center;
+    margin: 20px;
+    margin-left: 10%;
+}
+
+.rodape{
+    background-color: rgba(41, 41, 66, 1);
+    border: solid;
+    border-color: rgba(133, 99, 159, 1);
+    border-width: 1px;
+}
+
+.rodapelogos{
+    color: rgba(133, 99, 159, 1);
+}
+
+.linharodape{
+    background-color: rgba(133, 99, 159, 1);
+    height: 1px;
+}
+
+.rodape h1{
+    color: rgba(125, 123, 123, 1);
+}
+
+.rodape p{
+    color: white;
+    width: 854px;
+}
+
+.rodapelista{
+    color: white;
+    list-style: none;
+}
+
+.rodapelista2{
+    color: rgba(125, 123, 123, 1);
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logorodape{
+    display: flex;
+    margin-left: 50%;
+}
+
+.rodapebaixo{
+    padding: 20px;
+}
+
+.rodapemargin{
+    padding: 20px;
 }
