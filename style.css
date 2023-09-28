@@ -145,3 +145,26 @@ body{
 .rodapemargin{
     padding: 20px;
 }
+
+.cadastro{
+    background-color: rgba(41, 41, 66, 1);
+    border: solid;
+    border-color: rgba(133, 99, 159, 1);
+    border-radius: 20px;
+    border-width: 1px;
+    width: 900px;
+    height: 700px;
+}
+
+.cadastro input{
+    background-color: rgba(55, 54, 91, 1);
+    color: rgba(133, 99, 159, 1);
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+.cadastro h1{
+    color: rgba(133, 99, 159, 1);
+}
