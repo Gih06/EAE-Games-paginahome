@@ -1,0 +1,160 @@
+body{
+    background-color: rgba(55, 54, 91, 1);
+}
+
+.container-fluid{
+    background-color: rgba(55, 54, 91, 1);
+}
+
+.textomenu a{
+    text-decoration: none;
+    color: rgba(133, 99, 159, 1);
+}
+
+.textomenu{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.vermais{
+    display: flex;
+    background-color: rgba(41, 41, 66, 1);
+    width: 80px;
+    height: 30px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgba(133, 99, 159, 1);
+    border-color: rgba(133, 99, 159, 1);
+    justify-content: center;
+    justify-items: center;
+    justify-self: flex-end;
+    margin-top: 10px;
+}
+
+.lightbox-gallery{background-image:rgba(55, 54, 91, 1);
+    background-repeat: no-repeat;color: #000;overflow-x: hidden}
+    
+    .lightbox-gallery p{color:#fff}
+    .lightbox-gallery h2{font-weight:bold;
+        margin-bottom:40px;
+        padding-top:40px;color:#fff}
+        
+        @media (max-width:767px){
+            .lightbox-gallery h2{margin-bottom:25px;
+                padding-top:25px;font-size:24px}
+            }
+            
+            .lightbox-gallery .intro{font-size:16px;max-width:500px;margin:0 auto 40px}
+            .lightbox-gallery .intro p{margin-bottom:0}
+            .lightbox-gallery .photos{padding-bottom:20px}
+            .lightbox-gallery .item{padding-bottom:30px}
+
+
+.rodape{
+    background-color: rgba(41, 41, 66, 1);
+    border: solid;
+    border-color: rgba(133, 99, 159, 1);
+    border-width: 1px;
+}
+
+.rodapelogos{
+    color: rgba(133, 99, 159, 1);
+}
+
+.linharodape{
+    background-color: rgba(133, 99, 159, 1);
+    height: 1px;
+}
+
+.rodape h1{
+    color: rgba(125, 123, 123, 1);
+}
+
+.rodape p{
+    color: white;
+    width: 854px;
+}
+
+.rodapelista{
+    color: white;
+    list-style: none;
+}
+
+.rodapelista2{
+    color: rgba(125, 123, 123, 1);
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logorodape{
+    display: flex;
+    margin-left: 50%;
+}
+
+.rodapebaixo{
+    padding: 20px;
+}
+
+.rodapemargin{
+    padding: 20px;
+}
+
+.cadastro{
+    background-color: rgba(41, 41, 66, 1);
+    border: solid;
+    border-color: rgba(133, 99, 159, 1);
+    border-radius: 20px;
+    border-width: 1px;
+    width: 900px;
+    height: 700px;
+    padding-top: 100px;
+    padding-left: 200px;
+    margin: 80px;
+}
+
+.cadastro input{
+    background-color: rgba(55, 54, 91, 1);
+    color: rgba(133, 99, 159, 1);
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+.cadastro h1{
+    color: rgba(133, 99, 159, 1);
+}
+
+.categorialista li{
+    list-style: none;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.categorialista a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.superiordw{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgba(41, 41, 66, 1);
+    color: rgba(133, 99, 159, 1);
+    justify-content: space-between;
+    height: 800px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0.0rem;
+}
+
+.linha{
+    background-color: rgba(133, 99, 159, 1);
+    height: 1px;
+}
