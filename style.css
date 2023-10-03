@@ -149,3 +149,12 @@ body{
     justify-content: space-between;
     height: 800px;
 }
+
+.navbar{
+    --bs-navbar-padding-y: 0.0rem;
+}
+
+.linha{
+    background-color: rgba(133, 99, 159, 1);
+    height: 1px;
+}
